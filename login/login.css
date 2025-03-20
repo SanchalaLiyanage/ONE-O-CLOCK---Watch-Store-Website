@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 480px;
+}
+
+.login-form {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 38px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.email {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.password {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+a {
+    color: #060708;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.btnLogin {
+    background-color: #010509;
+    color: #fff;
+    padding: 1rem 10rem;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 17px;
+}
+
+.btnLogin:hover {
+    background-color: #1e262e;
+}
+
+.stln {
+    margin-right: 4rem;
+}
+
+.footer{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.footer div {
+    display: flex;
+    grid-auto-flow: column;
+    gap: 10%;
+    height: auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
